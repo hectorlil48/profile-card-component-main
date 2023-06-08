@@ -49,24 +49,28 @@ body {
   margin-top: -50px;
 }
 
-.title {
+.title,
+.num {
   font-size: 18px;
   font-weight: 700;
   color: var(--very-dark-desaturated-blue);
   margin-bottom: 8px;
 }
 
-.age {
+.age,
+.city,
+.stats {
   font-weight: 400;
-  margin-left: 8px;
   color: var(--dark-grayish-blue);
+}
+
+.age {
+  margin-left: 8px;
 }
 
 .city {
   margin-bottom: 28px;
   font-size: 14px;
-  font-weight: 400;
-  color: var(--dark-grayish-blue);
 }
 
 .card-footer {
@@ -76,18 +80,9 @@ body {
   justify-content: space-between;
 }
 
-.num {
-  color: var(--very-dark-desaturated-blue);
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 9px;
-}
-
 .stats {
   font-size: 10px;
-  font-weight: 400;
   letter-spacing: 1.5px;
-  color: var(--dark-grayish-blue);
 }
 
 /*  Footer */
