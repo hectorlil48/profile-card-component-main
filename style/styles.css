@@ -49,6 +49,47 @@ body {
   margin-top: -50px;
 }
 
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+  margin-bottom: 8px;
+}
+
+.age {
+  font-weight: 400;
+  margin-left: 8px;
+  color: var(--dark-grayish-blue);
+}
+
+.city {
+  margin-bottom: 28px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+}
+
+.card-footer {
+  border-top: 1px solid var(--dark-gray);
+  padding: 24px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.num {
+  color: var(--very-dark-desaturated-blue);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+
+.stats {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: var(--dark-grayish-blue);
+}
+
 /*  Footer */
 
 /* .attribution {
